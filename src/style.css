@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background-color: rgb(34, 32, 32);
+    color: white;
+
+    /* Configuración para que el footer no se flote */
+    max-height: 100vw;
+    max-width: 100vw;
+}
